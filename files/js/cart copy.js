@@ -207,7 +207,7 @@ function replace_HTML_on_Items_ZERO() {
 
     <div class="empty-cart-message">${emptyBagMessages[randomIndex]}</div>
     
-    <a href="/myntra_clone/files/html/myntra_clone.html" class="add-items-button">add items</a>
+    <a href="./myntra_clone.html" class="add-items-button">add items</a>
   </div>`;
 }
 
