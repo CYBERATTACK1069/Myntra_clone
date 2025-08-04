@@ -24,7 +24,7 @@ function displayItemsOnHomePage(filteredItems = items) {
       <div >${item.brand_name}</div>
         <div class="remove_icon_wrapper">
           <img onclick="removeFromBag('${item.id}')"
-            src="/myntra_clone/pics/dustbin.png"
+            src="../pics/dustbin.png"
             alt=""
             class="remove_from_bag"
             data-item-id="${item.id}"
