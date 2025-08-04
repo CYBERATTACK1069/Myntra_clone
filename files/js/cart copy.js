@@ -107,13 +107,13 @@ function generateTheHTML(item) {
         
       <div class="itemCounts">
         <img
-          src="/myntra_clone/pics/minus.png"
+          src="../pics/minus.png"
           alt=""
           class="minusItemCount" onclick="RemoveSeperateItemCount('${item.id}')"
         />
         <div class="display_seperate_items">${noOfSameItems(item.id)}</div>
         <img
-          src="/myntra_clone/pics/plus.png"
+          src="../pics/plus.png"
           alt=""
           class="plusItemCount" onclick="AddSeperateItemCount('${item.id}')"
         />
@@ -122,7 +122,7 @@ function generateTheHTML(item) {
       </article>
       <article class="col3">
         <div onclick='removeItemsFromBag(${item.id})'>
-                    <img class="cross" src="/myntra_clone/pics/dustbin.png" alt="">
+                    <img class="cross" src="../pics/dustbin.png" alt="">
 
         </div>
       </article>
@@ -203,7 +203,7 @@ function replace_HTML_on_Items_ZERO() {
   ];
   const randomIndex = Math.floor(Math.random() * emptyBagMessages.length);
   Mian_element.innerHTML = `<div class="empty-cart-container">
-    <img class="empty-cart-image" src="/myntra_clone/pics/cart.png" alt="Empty Cart">
+    <img class="empty-cart-image" src="../pics/cart.png" alt="Empty Cart">
 
     <div class="empty-cart-message">${emptyBagMessages[randomIndex]}</div>
     
