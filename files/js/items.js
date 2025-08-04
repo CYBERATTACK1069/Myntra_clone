@@ -1,7 +1,7 @@
 const items = [
   {
     id: "1",
-    item_image: "/myntra_clone/pics/product_pic_1.webp",
+    item_image: "../../pics/product_pic_1.webp",
     brand_name: "New Brand 1",
     item_name: "Stylish Floral Earrings",
     original_Price: 1200,
@@ -16,7 +16,7 @@ const items = [
   },
   {
     id: "2",
-    item_image: "/myntra_clone/pics/product_pic_2.webp",
+    item_image: "../../pics/product_pic_2.webp",
     brand_name: "Swim Co",
     item_name: "Elegant One-Piece Swimsuit",
     original_Price: 3000,
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: "3",
-    item_image: "/myntra_clone/pics/product_pic_3.webp",
+    item_image: "../../pics/product_pic_3.webp",
     brand_name: "Fashionista",
     item_name: "Chic A-Line Skirt",
     original_Price: 1800,
@@ -46,7 +46,7 @@ const items = [
   },
   {
     id: "4",
-    item_image: "/myntra_clone/pics/product_pic_4.webp",
+    item_image: "../../pics/product_pic_4.webp",
     brand_name: "SPORTSGEAR",
     item_name: "National Team Cricket Jersey",
     original_Price: 1500,
@@ -61,7 +61,7 @@ const items = [
   },
   {
     id: "5",
-    item_image: "/myntra_clone/pics/product_pic_5.webp",
+    item_image: "../../pics/product_pic_5.webp",
     brand_name: "Casual Wear",
     item_name: "Comfort Cotton T-shirt",
     original_Price: 1500,
@@ -76,7 +76,7 @@ const items = [
   },
   {
     id: "6",
-    item_image: "/myntra_clone/pics/product_pic_6.webp",
+    item_image: "../../pics/product_pic_6.webp",
     brand_name: "Runner Pro",
     item_name: "Advanced Running Shoes",
     original_Price: 16000,
@@ -91,7 +91,7 @@ const items = [
   },
   {
     id: "7",
-    item_image: "/myntra_clone/pics/product_pic_7.webp",
+    item_image: "../../pics/product_pic_7.webp",
     brand_name: "Urban Style",
     item_name: "Men's Regular Fit Shorts",
     original_Price: 1700,
@@ -106,7 +106,7 @@ const items = [
   },
   {
     id: "8",
-    item_image: "/myntra_clone/pics/product_pic_8.webp",
+    item_image: "../../pics/product_pic_8.webp",
     brand_name: "Grooming Essentials",
     item_name: "Men's Deodrant Spray 200ml",
     original_Price: 300,
@@ -121,7 +121,7 @@ const items = [
   },
   {
     id: "9",
-    item_image: "/myntra_clone/pics/product_pic_9.webp",
+    item_image: "../../pics/product_pic_9.webp",
     brand_name: "Sporty",
     item_name: "Men's Polo T-shirt",
     original_Price: 1400,
@@ -136,7 +136,7 @@ const items = [
   },
   {
     id: "10",
-    item_image: "/myntra_clone/pics/product_pic_10.webp",
+    item_image: "../../pics/product_pic_10.webp",
     brand_name: "Denim Co",
     item_name: "Men's Slim Fit Jeans",
     original_Price: 2800,
@@ -151,7 +151,7 @@ const items = [
   },
   {
     id: "11",
-    item_image: "/myntra_clone/pics/product_pic_11.webp",
+    item_image: "../../pics/product_pic_11.webp",
     brand_name: "TechWear",
     item_name: "Smart Fitness Watch",
     original_Price: 8500,
@@ -166,7 +166,7 @@ const items = [
   },
   {
     id: "12",
-    item_image: "/myntra_clone/pics/product_pic_12.webp",
+    item_image: "../../pics/product_pic_12.webp",
     brand_name: "Luxury Bags",
     item_name: "Premium Leather Handbag",
     original_Price: 12000,
@@ -181,7 +181,7 @@ const items = [
   },
   {
     id: "13",
-    item_image: "/myntra_clone/pics/product_pic_13.webp",
+    item_image: "../../pics/product_pic_13.webp",
     brand_name: "Home Decor",
     item_name: "Decorative Table Lamp",
     original_Price: 3500,
@@ -196,7 +196,7 @@ const items = [
   },
   {
     id: "14",
-    item_image: "/myntra_clone/pics/product_pic_14.webp",
+    item_image: "../../pics/product_pic_14.webp",
     brand_name: "Kitchen Pro",
     item_name: "Non-Stick Cookware Set",
     original_Price: 5500,
@@ -211,7 +211,7 @@ const items = [
   },
   {
     id: "15",
-    item_image: "/myntra_clone/pics/product_pic_15.webp",
+    item_image: "../../pics/product_pic_15.webp",
     brand_name: "BookWorm",
     item_name: "Classic Literature Collection",
     original_Price: 2500,
@@ -226,7 +226,7 @@ const items = [
   },
   {
     id: "16",
-    item_image: "/myntra_clone/pics/product_pic_16.webp",
+    item_image: "../../pics/product_pic_16.webp",
     brand_name: "Audio Tech",
     item_name: "Wireless Bluetooth Headphones",
     original_Price: 4500,
@@ -241,7 +241,7 @@ const items = [
   },
   {
     id: "17",
-    item_image: "/myntra_clone/pics/product_pic_17.webp",
+    item_image: "../../pics/product_pic_17.webp",
     brand_name: "Garden Plus",
     item_name: "Indoor Plant Pot Set",
     original_Price: 1800,
@@ -256,7 +256,7 @@ const items = [
   },
   {
     id: "18",
-    item_image: "/myntra_clone/pics/product_pic_18.webp",
+    item_image: "../../pics/product_pic_18.webp",
     brand_name: "Office Essentials",
     item_name: "Ergonomic Office Chair",
     original_Price: 15000,
@@ -271,7 +271,7 @@ const items = [
   },
   {
     id: "19",
-    item_image: "/myntra_clone/pics/product_pic_19.webp",
+    item_image: "../../pics/product_pic_19.webp",
     brand_name: "Beauty Care",
     item_name: "Skincare Routine Kit",
     original_Price: 3200,
@@ -286,7 +286,7 @@ const items = [
   },
   {
     id: "20",
-    item_image: "/myntra_clone/pics/product_pic_20.webp",
+    item_image: "../../pics/product_pic_20.webp",
     brand_name: "Travel Gear",
     item_name: "Lightweight Travel Backpack",
     original_Price: 4200,
